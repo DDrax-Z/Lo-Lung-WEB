@@ -68,6 +68,7 @@ color: #a2a2a2;
     margin-right: 5px;
     margin-left: 5px;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .logo
@@ -84,4 +85,139 @@ color: #a2a2a2;
     font-size: 16px;
     color: #585858;
     margin-left: 20px;
+    text-decoration: none;
+}
+
+.menu1
+{
+    width: 80px;
+	height: 365px;
+    text-align: right;
+    margin-top: 245px;
+}
+
+.menu1 a
+{
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #9d9d9d;
+    text-decoration: none;
+    font-family: futura lt bt;
+}
+
+.phannu
+{
+	position: relative;
+}
+
+.women
+{
+	height:360px;
+	width: 980px;
+	background: #ffebe3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,#ffebe3, #dbe3ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#ffebe3, #dbe3ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#ffebe3, #dbe3ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#ffebe3, #dbe3ff); /* Standard syntax */
+	position: absolute;
+	left: 30%;
+	margin-top: 275px;
+}
+
+.anhwoman
+{
+	
+margin-top: -155px;
+}
+
+.bocanh
+{
+	position: relative;
+}
+.anh1{
+    position: absolute;
+    left: -10%;
+}
+.anh2{
+    position: absolute;
+    left: 25%;
+}
+.anh3{
+    position: absolute;
+    right: 25%;
+}
+.anh4{
+    position: absolute;
+    right: -10%;
+}
+
+.phannam
+{
+	position:relative;
+	margin-top:200px;
+}
+
+.menu2
+{
+	text-align:left;
+}
+
+.men
+{
+	height:360px;
+	width: 980px;
+	background: #a5d7db; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,#a5d7db, #f2fce1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#a5d7db, #f2fce1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#a5d7db, #f2fce1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#a5d7db, #f2fce1); /* Standard syntax */
+	position: absolute;
+	right: 30%;
+	margin-top: 275px;
+}
+
+.anhnam1{
+    position: absolute;
+    left: -11%;
+}
+.anhnam2{
+    left: 20%;
+    position: absolute;
+}
+.anhnam3{
+    position: absolute;
+    right: 20%;
+}
+.anhnam4{
+    position: absolute;
+    right: -14%;
+}
+
+.slide
+{
+	margin-top:300px;
+	position:relative;
+}
+
+.slide img
+{
+	position: absolute;
+	left:0;
+	top: 0;
+}
+
+.test
+{
+	font-family: arial;
+	font-size: 40px;
+	font-weight:bold;
+	
+	font-size: 72px;
+	background: -webkit-linear-gradient(#a5d7db, #f2fce1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+
 }
