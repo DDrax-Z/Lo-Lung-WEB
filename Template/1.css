@@ -199,6 +199,8 @@ margin-top: -155px;
 {
 	margin-top:300px;
 	position:relative;
+	height: 600px;
+	overflow: hidden;
 }
 
 .slide img
@@ -206,6 +208,7 @@ margin-top: -155px;
 	position: absolute;
 	left:0;
 	top: 0;
+	
 }
 
 .test
@@ -218,6 +221,29 @@ margin-top: -155px;
 	background: -webkit-linear-gradient(#a5d7db, #f2fce1);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	
+}
 
+.ontrendnow
+{
+	position:relative;
+	margin-top: 200px;
+}
+.trend1{
+    position: absolute;
+    margin-left: -270px;
+    width: 300px;
+    z-index: 4;
+}
+.trend2{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 150px;
+    width: 320px;
+    z-index: 3;
+}
+.trend3{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -70px;
+    width: 430px;
 }
